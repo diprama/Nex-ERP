@@ -117,6 +117,92 @@ if ($_GET) {
 			break;
 
 			# MASTER ==================================================================
+		case 'Data-Ticket-Status':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_status.php";
+			break;
+		case 'Data-Ticket-Status-Add':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_status_add.php";
+			break;
+		case 'Data-Ticket-Status-Edit':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_status_edit.php";
+			break;
+		case 'Data-Ticket-Status-Delete':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_status_delete.php";
+			break;
+		case 'Data-Ticket-Priority':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_status.php";
+			break;
+		case 'Data-Ticket-Sub-Category':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_subcategory.php";
+			break;
+		case 'Data-Ticket-Sub-Category-Add':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_subcategory_add.php";
+			break;
+		case 'Data-Ticket-Sub-Category-Edit':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_subcategory_edit.php";
+			break;
+		case 'Data-Ticket-Sub-Category-Delete':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_subcategory_delete.php";
+			break;
+		case 'Data-Ticket-Category':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_category.php";
+			break;
+		case 'Data-Ticket-Category-Add':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_category_add.php";
+			break;
+		case 'Data-Ticket-Category-Edit':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_category_edit.php";
+			break;
+		case 'Data-Ticket-Category-Delete':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_category_delete.php";
+			break;
+		case 'Data-Ticket-Created-From':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_status.php";
+			break;
+		case 'Data-Ticket-Assign-To':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_assign.php";
+			break;
+		case 'Data-Ticket-Assign-To-Add':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_assign_add.php";
+			break;
+		case 'Data-Ticket-Assign-To-Edit':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_assign_edit.php";
+			break;
+		case 'Data-Ticket-Assign-To-Delete':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_assign_delete.php";
+			break;
+		case 'Data-User':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_status.php";
+			break;
+		case 'Data-Parameter':
+			if (!file_exists("data_status.php")) die("Sorry Empty Page!");
+			include "data_status.php";
+			break;
+
+
+
+
+
+
 
 			# MASTER TODOLIST
 		case 'Todolist':
@@ -394,12 +480,12 @@ if ($_GET) {
 			if (!file_exists("helpdesk_board.php")) die("Sorry Empty Page!");
 			include "helpdesk_board.php";
 			break;
-			case 'Ticket-Detail':
-				if (!file_exists("helpdesk_detail.php")) die("Sorry Empty Page!");
-				include "helpdesk_detail.php";
-				break;
+		case 'Ticket-Detail':
+			if (!file_exists("helpdesk_detail.php")) die("Sorry Empty Page!");
+			include "helpdesk_detail.php";
+			break;
 
-			
+
 			# Helpdesk ==================================================================
 		case 'Helpdesk':
 			if (!file_exists("helpdesk.php")) die("Sorry Empty Page!");
@@ -447,10 +533,10 @@ if ($_GET) {
 			if (!file_exists("helpdesk_internal_board.php")) die("Sorry Empty Page!");
 			include "helpdesk_internal_board.php";
 			break;
-			case 'Ticket-Detail-Internal':
-				if (!file_exists("helpdesk_internal_detail.php")) die("Sorry Empty Page!");
-				include "helpdesk_internal_detail.php";
-				break;
+		case 'Ticket-Detail-Internal':
+			if (!file_exists("helpdesk_internal_detail.php")) die("Sorry Empty Page!");
+			include "helpdesk_internal_detail.php";
+			break;
 
 
 			# Helpdesk Internal ==================================================================
